@@ -7,11 +7,15 @@
 # and using his https://github.com/michaeljsmalley/dotfiles/blob/master/makesymlinks.sh as my starting point....
 ############################
 
+if [  $USER == "root" ]; then
+echo "This script cannot be run as root"
+    exit
+fi
 
 ########## Variables
 
 dir=~/Development/dotfiles # dotfiles directory
-olddir=~/dotfiles_old # old dotfiles backup directory
+olddir=~/.df_backup # old dotfiles backup directory
 files="bashrc bash_aliases" # list of files/folders to symlink in homedir
 
 ##########
