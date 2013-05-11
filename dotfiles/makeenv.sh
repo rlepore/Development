@@ -16,7 +16,7 @@ fi
 
 dir=~/Development/dotfiles # dotfiles directory
 olddir=~/.df_backup # old dotfiles backup directory
-files="bashrc bash_aliases" # list of files/folders to symlink in homedir
+files="bashrc bash_aliases psqlrc" # list of files/folders to symlink in homedir
 
 ##########
 
