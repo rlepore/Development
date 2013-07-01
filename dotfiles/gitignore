@@ -17,3 +17,4 @@
 backups
 auto-save-list
 .\#*
+*.lst

@@ -1,6 +1,5 @@
 ;; Highlight regions and add special behaviors to regions.
 ;; "C-h d transient" for more info
-
 (setq transient-mark-mode t)
 
 ;; save position in files
@@ -18,9 +17,9 @@
 ;; Small fringes
 (set-fringe-mode '(0 . 0))
 
-;; global linum-mode
-(global-linum-mode 1) 
-(setq linum-format "%4d \u2502")
+;; Add line numbers to file on left side with a space and pipe between them.
+(setq linum-format "%4d \u2502 ")
+(global-linum-mode 1)
 ;;(custom-set-faces
 ;;'(linum ((t (:inherit (shadow default) :background "color-234" :foreground "brightblack")))))
 
