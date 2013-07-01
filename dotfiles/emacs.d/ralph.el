@@ -1,14 +1,14 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
+(load "ralph/defuns")
 (load "ralph/global")
+(load "ralph/packages")
 
 ;;General
-(vendor 'auto-complete')
-(vendor 'fill-column-indicator')
-(vendor 'flycheck')
+(vendor 'fill-column-indicator)
+(vendor 'findr)
 
 ;;Python related
-(vendor 'emacs-for-python')
+;;(vendor 'emacs-for-python)
 
-
-(load "ralph/private.el")
+;; (load "ralph/private.el")

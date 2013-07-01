@@ -1,0 +1,19 @@
+#LINUX
+.*
+!.gitignore
+*~
+
+#################
+#Python
+*.pyc
+*.coverage*
+
+##################
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+backups
+auto-save-list
+.\#*
