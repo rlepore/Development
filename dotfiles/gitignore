@@ -11,10 +11,8 @@
 ##################
 # Emacs
 *~
-\#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
 backups
 auto-save-list
-.\#*
 *.lst
