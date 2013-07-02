@@ -20,8 +20,6 @@
 ;; Add line numbers to file on left side with a space and pipe between them.
 (setq linum-format "%4d \u2502 ")
 (global-linum-mode 1)
-;;(custom-set-faces
-;;'(linum ((t (:inherit (shadow default) :background "color-234" :foreground "brightblack")))))
 
 ;; Emacs gurus don't need no stinking scroll bars
 (when (fboundp 'toggle-scroll-bar)
@@ -50,8 +48,8 @@
 (show-paren-mode t)
 
 ;; Don't truncate lines
-(setq-default truncate-lines t)
-(setq truncate-partial-width-windows nil)
+;;(setq-default truncate-lines t)
+;;(setq truncate-partial-width-windows nil)
 
 ;; Desktop mode
 (desktop-save-mode 1)
