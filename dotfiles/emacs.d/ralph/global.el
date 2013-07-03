@@ -48,8 +48,8 @@
 (show-paren-mode t)
 
 ;; Don't truncate lines
-;;(setq-default truncate-lines t)
-;;(setq truncate-partial-width-windows nil)
+(setq-default truncate-lines t)
+(setq truncate-partial-width-windows nil)
 
 ;; Desktop mode
 (desktop-save-mode 1)

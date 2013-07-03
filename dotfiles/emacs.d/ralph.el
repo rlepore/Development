@@ -4,11 +4,11 @@
 (load "ralph/global")
 (load "ralph/packages")
 
+;;Load Python related
+(load "vendor/emacs-for-python/epy-init.el")
+
 ;;General
 (vendor 'fill-column-indicator)
 (vendor 'findr)
-
-;;Python related
-;;(vendor 'emacs-for-python)
 
 ;; (load "ralph/private.el")
