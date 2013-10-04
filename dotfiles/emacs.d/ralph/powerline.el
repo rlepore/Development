@@ -1,1 +1,1 @@
-(vendor 'powerline)
+(powerline-center-theme)
