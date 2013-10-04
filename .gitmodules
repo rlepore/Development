@@ -10,3 +10,21 @@
 [submodule "dotfiles/emacs.d/vendor/flycheck"]
 	path = dotfiles/emacs.d/vendor/flycheck
 	url = git://github.com/lunaryorn/flycheck
+[submodule "dotfiles/emacs.d/vendor/powerline"]
+	path = dotfiles/emacs.d/vendor/powerline
+	url = git@github.com:milkypostman/powerline.git
+[submodule "dotfiles/emacs.d/vendor/web-mode"]
+	path = dotfiles/emacs.d/vendor/web-mode
+	url = git@github.com:fxbois/web-mode.git
+[submodule "dotfiles/emacs.d/vendor/js2-mode"]
+	path = dotfiles/emacs.d/vendor/js2-mode
+	url = git@github.com:mooz/js2-mode.git
+[submodule "dotfiles/emacs.d/vendor/jade-mode"]
+	path = dotfiles/emacs.d/vendor/jade-mode
+	url = git@github.com:brianc/jade-mode.git
+[submodule "dotfiles/emacs.d/vendor/json-mode"]
+	path = dotfiles/emacs.d/vendor/json-mode
+	url = git@github.com:joshwnj/json-mode.git
+[submodule "dotfiles/emacs.d/vendor/rainbow-mode"]
+	path = dotfiles/emacs.d/vendor/rainbow-mode
+	url = git@github.com:emacsmirror/rainbow-mode.git
