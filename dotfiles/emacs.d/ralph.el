@@ -18,7 +18,7 @@
 (vendor 'jade-mode)
 (vendor 'json-mode)
 (vendor 'web-mode)
-;;(vendor 'rainbow-mode)
+(vendor 'rainbow-mode)
 
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)
