@@ -3,6 +3,15 @@
 (load "ralph/defuns")
 (load "ralph/global")
 (load "ralph/packages")
+;;(load "ralph/powerline")
+(load "ralph/fill-column-indicator")
+
+;;Load web modes
+(load "ralph/web-mode")
+(load "ralph/js")
+(load "ralph/js2-mode")
+(load "ralph/json-mode")
+(load "ralph/jade-mode")
 
 ;;Load Python related
 (load "vendor/emacs-for-python/epy-init.el")
