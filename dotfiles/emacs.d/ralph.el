@@ -9,7 +9,6 @@
 
 ;;General
 (vendor 'fill-column-indicator)
-(vendor 'findr)
 
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)
