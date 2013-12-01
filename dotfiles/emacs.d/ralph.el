@@ -18,7 +18,7 @@
 
 ;;General
 (vendor 'fill-column-indicator)
-(vendor 'powerline)
+;;(vendor 'powerline)
 (vendor 'smooth-scroll)
 
 ;; Other Modes

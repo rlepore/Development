@@ -2,6 +2,7 @@
 .*
 !.gitignore
 *~
+*.dat
 
 #################
 #Python
