@@ -111,3 +111,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ## Add Arduino 1.0.3:
 export PATH="/usr/local/arduino:$PATH"
+
+## Add Cask to path for emacs use.
+export PATH="/home/ralph/.cask/bin:$PATH"
+

@@ -1,0 +1,14 @@
+(source gnu)
+(source melpa)
+(source "marmalade" "http://marmalade-repo.org/packages/")
+
+(depends-on "powerline")
+(depends-on "smooth-scroll")
+(depends-on "git-gutter")
+(depends-on "flycheck")
+(depends-on "fill-column-indicator")
+
+(depends-on "python-mode")
+(depends-on "python-pep8")
+(depends-on "python-pylint")
+(depends-on "virtualenv")

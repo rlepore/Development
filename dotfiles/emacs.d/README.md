@@ -1,6 +1,11 @@
 Emacs Configuration
 ===================
 
+08/18/2014
+----------
+- Remove submodules for use of Cask (http://cask.readthedocs.org/en/latest/index.html).
+- Update all configuration.
+
 10/03/2013
 ----------
 

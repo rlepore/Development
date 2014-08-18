@@ -3,7 +3,7 @@
   (let* ((file (symbol-name library))
          (normal (concat "~/.emacs.d/vendor/" file))
          (suffix (concat normal ".el"))
-         (personal (concat "~/.emacs.d/jsoa/" file))
+         (personal (concat "~/.emacs.d/ralphl/" file))
 (found nil))
     (cond
      ((file-directory-p normal) (add-to-list 'load-path normal) (set 'found t))

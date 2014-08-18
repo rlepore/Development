@@ -1,35 +1,25 @@
-(add-to-list 'load-path "~/.emacs.d/vendor")
+
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
 
 (load "ralph/defuns")
 (load "ralph/global")
 (load "ralph/packages")
-;;(load "ralph/powerline")
+
+;; General modes
+(load "ralph/smooth-scroll")
+(load "ralph/powerline")
 (load "ralph/fill-column-indicator")
+(load "ralph/git-gutter")
 
-;;Load web modes
-(load "ralph/web-mode")
-(load "ralph/js")
-(load "ralph/js2-mode")
-(load "ralph/json-mode")
-(load "ralph/jade-mode")
-
-;;Load Python related
-(load "vendor/emacs-for-python/epy-init.el")
-
-;;General
-(vendor 'fill-column-indicator)
-;;(vendor 'powerline)
-(vendor 'smooth-scroll)
-
-;; Other Modes
-(vendor 'css-mode)
-(vendor 'js2-mode)
-(vendor 'jade-mode)
-(vendor 'json-mode)
-(vendor 'web-mode)
-(vendor 'rainbow-mode)
+;; Python mode
+(load "ralph/python-mode")
+(load "ralph/python-pep8")
+(load "ralph/python-pylint")
+(load "ralph/virtualenv")
 
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)
 
+;; Anything private goes in this file, which is not in the repo
 ;; (load "ralph/private.el")
