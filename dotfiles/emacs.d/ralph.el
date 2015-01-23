@@ -19,6 +19,15 @@
 ;; Python mode
 (load "vendor/emacs-for-python/epy-init.el")
 
+;; Web modes
+(load "ralph/js")
+(load "ralph/js2-mode")
+(load "ralph/web-mode")
+(load "ralph/css-mode")
+
+;; Other modes
+(load "ralph/markdown-mode")
+
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)
 

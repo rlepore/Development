@@ -9,3 +9,7 @@
 (depends-on "fill-column-indicator")
 (depends-on "virtualenv")
 (depends-on "neotree")
+(depends-on "js2-mode")
+(depends-on "markdown-mode")
+(depends-on "web-mode")
+(depends-on "css-mode")
