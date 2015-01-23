@@ -1,6 +1,6 @@
 [submodule "dotfiles/emacs.d/vendor/emacs-for-python"]
 	path = dotfiles/emacs.d/vendor/emacs-for-python
-	url = git://github.com/gabrielelanaro/emacs-for-python
+	url = https://github.com/gabrielelanaro/emacs-for-python.git
 [submodule "dotfiles/emacs.d/vendor/auto-complete"]
 	path = dotfiles/emacs.d/vendor/auto-complete
 	url = git://github.com/auto-complete/auto-complete

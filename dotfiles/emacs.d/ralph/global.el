@@ -1,3 +1,18 @@
+;;(require 'python-pep8)
+ (when (load "flymake" t)
+         (defun flymake-pyflakes-init ()
+           (let* ((temp-file (flymake-init-create-temp-buffer-copy
+                              'flymake-create-temp-inplace))
+              (local-file (file-relative-name
+                           temp-file
+                           (file-name-directory buffer-file-name))))
+             (list "pyflakes" (list local-file))))
+
+         (add-to-list 'flymake-allowed-file-name-masks
+                  '("\\.py\\'" flymake-pyflakes-init)))
+
+   (add-hook 'find-file-hook 'flymake-find-file-hook)
+
 ;; Highlight regions and add special behaviors to regions.
 ;; "C-h d transient" for more info
 (setq transient-mark-mode t)
@@ -6,7 +21,7 @@
 (setq-default save-place t)
 
 ;; Display line and column numbers
-(line-number-mode 1) 
+(line-number-mode 1)
 (column-number-mode 1)
 
 ;; Turn off tool-bar-mode

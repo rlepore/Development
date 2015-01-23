@@ -7,8 +7,5 @@
 (depends-on "git-gutter")
 (depends-on "flycheck")
 (depends-on "fill-column-indicator")
-
-(depends-on "python-mode")
-(depends-on "python-pep8")
-(depends-on "python-pylint")
 (depends-on "virtualenv")
+(depends-on "neotree")
