@@ -27,6 +27,7 @@
 
 ;; Other modes
 (load "ralph/markdown-mode")
+(load "ralph/yaml-mode")
 
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)

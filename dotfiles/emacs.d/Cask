@@ -13,3 +13,4 @@
 (depends-on "markdown-mode")
 (depends-on "web-mode")
 (depends-on "css-mode")
+(depends-on "yaml-mode")
