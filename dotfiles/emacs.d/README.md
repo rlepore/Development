@@ -1,6 +1,17 @@
 Emacs Configuration
 ===================
 
+Setup
+-----
+Cask is required inorder to build my emacs configuration.  Below are the steps needed to install our packages via cask.
+
+    # Install Cask
+    curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+    
+    # Install dependencies.  Make sure to run this where the Cask file is.
+    cask install
+For more detailed installation directions check out the cask docs:  http://cask.readthedocs.org/en/latest/guide/installation.html
+
 08/18/2014
 ----------
 - Remove submodules for use of Cask (http://cask.readthedocs.org/en/latest/index.html).
