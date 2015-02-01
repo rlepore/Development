@@ -8,7 +8,7 @@
 alias c='clear'
 alias h='history'
 alias l='ls -F -G'
-alias ll='ls -ltr -F -G'
+alias lt='ls -ltr -F -G'
 alias la='ls -a -F -G'
 alias em='emacs -nw'
 alias yuicompressor='java -jar /usr/local/yuicompressor-2.4.7/yuicompressor/yuicompressor.jar'
