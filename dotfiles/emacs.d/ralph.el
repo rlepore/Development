@@ -13,7 +13,7 @@
 (load "ralph/smooth-scroll")
 (load "ralph/powerline")
 (load "ralph/fill-column-indicator")
-(load "ralph/git-gutter")
+;; (load "ralph/git-gutter")  ;; Emacs keeps seg faulting when I have this turned on with the pyflakes script...
 (load "ralph/neotree")
 
 ;; Python mode
