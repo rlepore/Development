@@ -32,5 +32,8 @@
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)
 
+;; Turn on ipython when using python shell.
+(epy-setup-ipython)
+
 ;; Anything private goes in this file, which is not in the repo
 ;; (load "ralph/private.el")
