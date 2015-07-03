@@ -118,3 +118,7 @@ export PATH="/usr/local/arduino:$PATH"
 
 ## Add Cask to path for emacs use.
 export PATH="/home/ralph/.cask/bin:$PATH"
+
+## Virtualenvwrapper setup
+export WORKON_HOME="~/.venv"
+source /usr/local/bin/virtualenvwrapper.sh
