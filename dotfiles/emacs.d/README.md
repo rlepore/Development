@@ -10,7 +10,15 @@ Cask is required inorder to build my emacs configuration.  Below are the steps n
     
     # Install dependencies.  Make sure to run this where the Cask file is.
     cask install
+    
+    # List dependencies.
+    cask list
+    
 For more detailed installation directions check out the cask docs:  http://cask.readthedocs.org/en/latest/guide/installation.html
+
+07/18/2014
+----------
+- Add dockerfile-mode for syntax highlighting.  Also adds the ability to build image from the buffer.  https://github.com/spotify/dockerfile-mode
 
 08/18/2014
 ----------

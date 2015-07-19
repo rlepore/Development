@@ -28,6 +28,7 @@
 ;; Other modes
 (load "ralph/markdown-mode")
 (load "ralph/yaml-mode")
+(load "ralph/dockerfile-mode")
 
 ;;Disable back up files i.e. files ending in ~
 (setq make-backup-files nil)
