@@ -13,6 +13,7 @@ alias la='ls -a -F -G'
 alias em='emacs -nw'
 alias yuicompressor='java -jar /usr/local/yuicompressor-2.4.7/yuicompressor/yuicompressor.jar'
 alias df='df -h'
+alias clearpython='find . -name '*.pyc' -print0 | xargs -0 rm -f'
 
 # Private Alias definitions.
 # You may want to store your non-public aliases in an additional file.
