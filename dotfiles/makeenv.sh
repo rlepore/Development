@@ -14,9 +14,9 @@ fi
 
 ########## Variables
 
-dir=~/Development/dotfiles # dotfiles directory
+dir=~/sys/Development/dotfiles # dotfiles directory
 olddir=~/.df_backup # old dotfiles backup directory
-files="bashrc bash_aliases psqlrc" # list of files/folders to symlink in homedir
+files="bashrc bash_aliases psqlrc emacs emacs.d" # list of files/folders to symlink in homedir
 
 ##########
 
