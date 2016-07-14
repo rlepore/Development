@@ -122,3 +122,6 @@ export PATH="/home/ralph/.cask/bin:$PATH"
 ## Virtualenvwrapper setup
 export WORKON_HOME="~/.venv"
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Add user bin directory to path.
+export PATH="$HOME/bin:$PATH"

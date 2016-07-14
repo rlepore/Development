@@ -15,6 +15,9 @@ alias yuicompressor='java -jar /usr/local/yuicompressor-2.4.7/yuicompressor/yuic
 alias df='df -h'
 alias clearpython='find . -name '*.pyc' -print0 | xargs -0 rm -f'
 
+# Docker aliases
+alias dps="docker ps -q | xargs docker inspect --format '{{ .Id }} - {{ .Name }} - {{ .NetworkSettings.IPAddress }}'"
+
 # Private Alias definitions.
 # You may want to store your non-public aliases in an additional file.
 if [ -f ~/.private_aliases ]; then
