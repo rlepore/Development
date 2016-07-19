@@ -18,6 +18,9 @@ alias clearpython='find . -name '*.pyc' -print0 | xargs -0 rm -f'
 # Docker aliases
 alias dps="docker ps -q | xargs docker inspect --format '{{ .Id }} - {{ .Name }} - {{ .NetworkSettings.IPAddress }}'"
 
+# Git aliases
+alias gitlog="git log --oneline --graph --decorate --all"
+
 # Private Alias definitions.
 # You may want to store your non-public aliases in an additional file.
 if [ -f ~/.private_aliases ]; then
